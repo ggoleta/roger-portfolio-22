@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 65.625rem;
+  margin: 0 auto;
+  margin-top: 3.125rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header .personalInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header .personalInfo strong {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--dark-90);
+}
+
+.header .personalInfo span {
+  font-weight: 500;
+  font-size: 0.825rem;
+  color: var(--main-20);
+  background: var(--main-30);
+  padding: 0.6rem;
+  border-radius: 11.216rem;
+}
+
+.header .social {
+  display: flex;
+  align-items: center;
+  color: var(--dark-90);
+  gap: 2.312rem;
+}

@@ -1,0 +1,30 @@
+:root {
+  --white: #fff;
+  --gray-60: #5D87A8;
+  --dark-90: #19192E;
+  --main-20: #F5EDFF;
+  --main-30: #94bbe9;
+  --main-50: #AF48FF;
+}
+
+:focus {
+  outline: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right bottom, rgba(148,187,233,0.3) 100%, rgba(238,174,202,1) 0%);
+  color: var(--gray-60);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
