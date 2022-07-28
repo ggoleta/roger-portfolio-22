@@ -1,0 +1,47 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about h1 {
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: var(--dark-90);
+  margin-bottom: 2.312rem;
+}
+
+.about .description, .goals, .checkjobs {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--gray-60);
+  margin-bottom: 1.4rem;
+}
+
+.about .goals {
+  display: flex;
+}
+
+.about .goals p {
+  max-width: 16rem;
+}
+
+.about .checkjobs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about .checkjobs svg{
+  transform: rotate(180deg);
+  color: var(--main-50);
+}
+
+.about .checkjobs > span {
+  font-size: 1.5rem;
+}
+
+.about .warning {
+  color: var(--main-50);
+}

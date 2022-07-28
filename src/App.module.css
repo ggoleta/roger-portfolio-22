@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  width: 65.625rem;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  gap: 0.5rem;
+}
+
+.wrapper main {
+  width: 29.187rem;
+}
+
+.wrapper aside {
+  flex: 1;
+}
